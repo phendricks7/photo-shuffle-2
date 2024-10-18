@@ -1,0 +1,29 @@
+.root.polaroid {
+    background-color: #fff;
+    padding: 5px;
+    padding-bottom: 40px;
+    position: absolute;
+    box-shadow: #000a 0 0 6px; 
+    transform-origin: center;
+    transition: transform .1s, opacity .5s;
+}
+
+
+@keyframes highlight {
+    from {
+      background-position: 0;
+    }
+
+    to {
+      background-position: -100%;
+    }
+}
+
+h2 {
+    animation-name: highlight;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+    background-size: 200%;
+    background-image: linear-gradient(to right, white 50%, transparent 50%), 
+                      linear-gradient(transparent 50%, purple 50%);
+}

@@ -1,5 +1,5 @@
 {
-  "name": "ts-app",
+  "name": "photo-shuffle",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
